@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="default"
 		confs="default"
-		date="20160925002451"/>
+		date="20160925083437"/>
 	<dependencies>
 		<module organisation="com.websudos" name="sbt-package-dist">
 			<revision name="1.2.0" status="release" pubdate="20150509173212" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/websudos/sbt-package-dist" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="221">

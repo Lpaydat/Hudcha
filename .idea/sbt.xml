@@ -10,6 +10,8 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app/advertiser" />
             <option value="$PROJECT_DIR$/app/advertiser/project" />
+            <option value="$PROJECT_DIR$/app/analyser" />
+            <option value="$PROJECT_DIR$/app/analyser/project" />
             <option value="$PROJECT_DIR$/app/common" />
             <option value="$PROJECT_DIR$/app/common/project" />
             <option value="$PROJECT_DIR$/app/crawler" />

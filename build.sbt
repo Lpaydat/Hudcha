@@ -21,7 +21,7 @@ lazy val sharedSettings = Seq(
 //*******************************************************
 // main project
 
-lazy val hudcha = (project in file("."))
+lazy val root = (project in file("."))
   .settings(sharedSettings: _*)
   .settings(
     version := "1.0"
@@ -47,11 +47,17 @@ lazy val crawler = (project in file("./app/crawler"))
     libraryDependencies ++= LibraryDependencies.crawler
   )
 
-lazy val advertiser = (project in file("./app/advertiser"))
+lazy val analyser = (project in file("./app/analyser"))
   .settings(sharedSettings: _*)
   .settings(
     version := "1.0",
-    libraryDependencies ++= LibraryDependencies.advertiser
+    libraryDependencies ++= LibraryDependencies.analyser
+  )
+
+lazy val advertiser = (project in file("./app/advertiser"))
+  .settings(sharedSettings: _*)
+  .settings(
+    version := "1.0"
   )
 
 lazy val web = (project in file("./app/web")).enablePlugins(PlayScala)

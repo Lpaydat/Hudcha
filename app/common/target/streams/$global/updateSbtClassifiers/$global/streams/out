@@ -4101,9 +4101,9 @@
 [debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpclient;4.2.5!httpclient.jar
 [debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpcore;4.2.4!httpcore.jar
 [debug] 	[NOT REQUIRED] commons-logging#commons-logging;1.1.1!commons-logging.jar
-[debug] :: resolution report :: resolve 1331ms :: artifacts dl 32ms
+[debug] :: resolution report :: resolve 3614ms :: artifacts dl 70ms
 [debug] 	report for common#common$sbt_2.11;1.0 default produced in /Users/madooc/workspace/Hudcha/app/common/target/resolution-cache/reports/common-common$sbt_2.11-default.xml
-[debug] 	resolve done (1331ms resolve - 32ms download)
+[debug] 	resolve done (3614ms resolve - 70ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: common#common$sources_2.11;1.0
 [debug] 	confs: [default]
@@ -7397,6 +7397,6 @@
 [debug] 	[NOT REQUIRED] org.apache.maven#maven-repository-metadata;3.2.2!maven-repository-metadata.jar(src)
 [debug] 	[NOT REQUIRED] org.bouncycastle#bcpg-jdk15on;1.51!bcpg-jdk15on.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.play#sbt-routes-compiler_2.10;2.5.8!sbt-routes-compiler_2.10.jar(src)
-[debug] :: resolution report :: resolve 1281ms :: artifacts dl 43ms
+[debug] :: resolution report :: resolve 1836ms :: artifacts dl 58ms
 [debug] 	report for common#common$sources_2.11;1.0 default produced in /Users/madooc/workspace/Hudcha/app/common/target/resolution-cache/reports/common-common$sources_2.11-default.xml
-[debug] 	resolve done (1281ms resolve - 43ms download)
+[debug] 	resolve done (1836ms resolve - 58ms download)

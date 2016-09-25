@@ -6,7 +6,7 @@ object LibraryDependencies {
   val shared = scalaTest ++ typesafe ++ phantom ++ json   // include in every projects
   val common = phantom
   val crawler = scalaScraper
-  val advertiser = fp
+  val analyser = compute
   val web = play
 }
 
@@ -38,7 +38,7 @@ object LibraryDependencyList {
     "org.json4s"           %% "json4s-jackson"  % "3.4.0"
   )
 
-  val fp = Seq(
+  val compute = Seq(
     "org.scalaz" %% "scalaz-core" % "7.2.5"
   )
 

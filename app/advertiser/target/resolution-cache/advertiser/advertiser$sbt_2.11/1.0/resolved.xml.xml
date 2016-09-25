@@ -4,7 +4,7 @@
 		module="advertiser$sbt_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20160925002518"
+		publication="20160925083453"
 	/>
 	<configurations>
 		<conf name="default" visibility="public"/>

@@ -4,7 +4,7 @@
 		module="advertiser_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20160925002528"
+		publication="20160925083447"
 	>
 		<description>
 		advertiser
@@ -42,6 +42,5 @@
 		<dependency org="net.liftweb" name="lift-json_2.11" rev="3.0-RC3" conf="compile->default(compile)"/>
 		<dependency org="org.json4s" name="json4s-native_2.11" rev="3.4.0" conf="compile->default(compile)"/>
 		<dependency org="org.json4s" name="json4s-jackson_2.11" rev="3.4.0" conf="compile->default(compile)"/>
-		<dependency org="org.scalaz" name="scalaz-core_2.11" rev="7.2.5" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

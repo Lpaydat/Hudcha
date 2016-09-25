@@ -1,6 +1,7 @@
 [debug] Other repositories:
 [debug] Default repositories:
 [debug] Using inline dependencies specified in Scala.
+[debug] no default cache defined: set to /Users/madooc/.ivy2/cache
 [debug] :: resolving dependencies :: hudcha#hudcha$sbt_2.11;1.0
 [debug] 	confs: [default]
 [debug] 	validate = true
@@ -4101,9 +4102,9 @@
 [debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpclient;4.2.5!httpclient.jar
 [debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpcore;4.2.4!httpcore.jar
 [debug] 	[NOT REQUIRED] commons-logging#commons-logging;1.1.1!commons-logging.jar
-[debug] :: resolution report :: resolve 2918ms :: artifacts dl 117ms
+[debug] :: resolution report :: resolve 1929ms :: artifacts dl 52ms
 [debug] 	report for hudcha#hudcha$sbt_2.11;1.0 default produced in /Users/madooc/workspace/Hudcha/target/resolution-cache/reports/hudcha-hudcha$sbt_2.11-default.xml
-[debug] 	resolve done (2918ms resolve - 117ms download)
+[debug] 	resolve done (1929ms resolve - 52ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: hudcha#hudcha$sources_2.11;1.0
 [debug] 	confs: [default]
@@ -7251,14 +7252,7 @@
 [debug] 	[NOT REQUIRED] com.google.protobuf#protobuf-java;2.5.0!protobuf-java.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#run;0.13.11!run.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#cross;0.13.11!cross.jar(src)
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/sbt-plugin/scala_2.10/sbt_0.13/2.5.8/srcs/sbt-plugin-sources.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/sbt-plugin/scala_2.10/sbt_0.13/2.5.8/srcs/sbt-plugin-sources.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/sbt-plugin/scala_2.10/sbt_0.13/2.5.8/srcs/sbt-plugin-sources.jar
-[info] downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/sbt-plugin/scala_2.10/sbt_0.13/2.5.8/srcs/sbt-plugin-sources.jar ...
-[debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/sbt-plugin/scala_2.10/sbt_0.13/2.5.8/srcs/sbt-plugin-sources.jar
-[debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/sbt-plugin/scala_2.10/sbt_0.13/2.5.8/srcs/sbt-plugin-sources.jar.sha1
-[debug] sha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/sbt-plugin/scala_2.10/sbt_0.13/2.5.8/srcs/sbt-plugin-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#sbt-plugin;2.5.8!sbt-plugin.jar(src) (6479ms)
+[debug] 	[NOT REQUIRED] com.typesafe.play#sbt-plugin;2.5.8!sbt-plugin.jar(src)
 [debug] 	[NOT REQUIRED] io.apigee.trireme#trireme-core;0.8.5!trireme-core.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.6!scala-reflect.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt.ivy#ivy;2.3.0-sbt-2cc8d2761242b072cedb0a04cb39435c4fa24f9a!ivy.jar(src)
@@ -7323,17 +7317,7 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#tasks;0.13.11!tasks.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.11!test-agent.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#launcher-interface;1.0.0-M1!launcher-interface.jar(src)
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/sbt-run-support_2.10/2.5.8/srcs/sbt-run-support_2.10-sources.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/sbt-run-support_2.10/2.5.8/srcs/sbt-run-support_2.10-sources.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/sbt-run-support_2.10/2.5.8/srcs/sbt-run-support_2.10-sources.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/sbt-run-support_2.10/2.5.8/srcs/sbt-run-support_2.10-sources.jar
-[debug] 		tried /Users/madooc/.ivy2/local/com.typesafe.play/sbt-run-support_2.10/2.5.8/srcs/sbt-run-support_2.10-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/sbt-run-support_2.10/2.5.8/sbt-run-support_2.10-2.5.8-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/sbt-run-support_2.10/2.5.8/sbt-run-support_2.10-2.5.8-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/sbt-run-support_2.10/2.5.8/sbt-run-support_2.10-2.5.8-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/sbt-run-support_2.10/2.5.8/sbt-run-support_2.10-2.5.8-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/sbt-run-support_2.10/2.5.8/sbt-run-support_2.10-2.5.8-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#sbt-run-support_2.10;2.5.8!sbt-run-support_2.10.jar(src) (2042ms)
+[debug] 	[NOT REQUIRED] com.typesafe.play#sbt-run-support_2.10;2.5.8!sbt-run-support_2.10.jar(src)
 [debug] 	[NOT REQUIRED] org.joda#joda-convert;1.7!joda-convert.jar(src)
 [debug] 	[NOT REQUIRED] com.google.inject#guice;3.0!guice.jar(src)
 [debug] 	[NOT REQUIRED] net.sf.supercsv#super-csv;2.1.0!super-csv.jar(src)
@@ -7413,17 +7397,7 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#control;0.13.11!control.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.maven#maven-repository-metadata;3.2.2!maven-repository-metadata.jar(src)
 [debug] 	[NOT REQUIRED] org.bouncycastle#bcpg-jdk15on;1.51!bcpg-jdk15on.jar(src)
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/sbt-routes-compiler_2.10/2.5.8/srcs/sbt-routes-compiler_2.10-sources.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/sbt-routes-compiler_2.10/2.5.8/srcs/sbt-routes-compiler_2.10-sources.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/sbt-routes-compiler_2.10/2.5.8/srcs/sbt-routes-compiler_2.10-sources.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/sbt-routes-compiler_2.10/2.5.8/srcs/sbt-routes-compiler_2.10-sources.jar
-[debug] 		tried /Users/madooc/.ivy2/local/com.typesafe.play/sbt-routes-compiler_2.10/2.5.8/srcs/sbt-routes-compiler_2.10-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/sbt-routes-compiler_2.10/2.5.8/sbt-routes-compiler_2.10-2.5.8-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/sbt-routes-compiler_2.10/2.5.8/sbt-routes-compiler_2.10-2.5.8-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/sbt-routes-compiler_2.10/2.5.8/sbt-routes-compiler_2.10-2.5.8-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/sbt-routes-compiler_2.10/2.5.8/sbt-routes-compiler_2.10-2.5.8-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/sbt-routes-compiler_2.10/2.5.8/sbt-routes-compiler_2.10-2.5.8-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#sbt-routes-compiler_2.10;2.5.8!sbt-routes-compiler_2.10.jar(src) (1069ms)
-[debug] :: resolution report :: resolve 2661ms :: artifacts dl 17883ms
+[debug] 	[NOT REQUIRED] com.typesafe.play#sbt-routes-compiler_2.10;2.5.8!sbt-routes-compiler_2.10.jar(src)
+[debug] :: resolution report :: resolve 1317ms :: artifacts dl 77ms
 [debug] 	report for hudcha#hudcha$sources_2.11;1.0 default produced in /Users/madooc/workspace/Hudcha/target/resolution-cache/reports/hudcha-hudcha$sources_2.11-default.xml
-[debug] 	resolve done (2661ms resolve - 17883ms download)
+[debug] 	resolve done (1317ms resolve - 77ms download)

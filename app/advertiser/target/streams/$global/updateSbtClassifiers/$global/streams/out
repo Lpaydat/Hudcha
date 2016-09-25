@@ -1,6 +1,7 @@
 [debug] Other repositories:
 [debug] Default repositories:
 [debug] Using inline dependencies specified in Scala.
+[debug] no default cache defined: set to /Users/madooc/.ivy2/cache
 [debug] :: resolving dependencies :: advertiser#advertiser$sbt_2.11;1.0
 [debug] 	confs: [default]
 [debug] 	validate = true
@@ -139,7 +140,6 @@
 [debug] == resolving dependencies org.scala-sbt#completion;0.13.11->jline#jline;2.13 [compile->default(compile)]
 [info] Resolving jline#jline;2.13 ...
 [debug] sbt-chain: Checking cache for: dependency: jline#jline;2.13 {compile=[default(compile)]}
-[debug] no default cache defined: set to /Users/madooc/.ivy2/cache
 [debug] sbt-chain: module revision found in cache: jline#jline;2.13
 [debug] 	found jline#jline;2.13 in sbt-chain
 [debug] == resolving dependencies org.scala-sbt#completion;0.13.11->jline#jline;2.13 [compile->runtime]
@@ -4102,9 +4102,9 @@
 [debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpclient;4.2.5!httpclient.jar
 [debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpcore;4.2.4!httpcore.jar
 [debug] 	[NOT REQUIRED] commons-logging#commons-logging;1.1.1!commons-logging.jar
-[debug] :: resolution report :: resolve 1934ms :: artifacts dl 51ms
+[debug] :: resolution report :: resolve 2509ms :: artifacts dl 47ms
 [debug] 	report for advertiser#advertiser$sbt_2.11;1.0 default produced in /Users/madooc/workspace/Hudcha/app/advertiser/target/resolution-cache/reports/advertiser-advertiser$sbt_2.11-default.xml
-[debug] 	resolve done (1934ms resolve - 51ms download)
+[debug] 	resolve done (2509ms resolve - 47ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: advertiser#advertiser$sources_2.11;1.0
 [debug] 	confs: [default]
@@ -4437,7 +4437,6 @@
 [debug] == resolving dependencies advertiser#advertiser$sources_2.11;1.0->org.apache.maven#maven-settings-builder;3.2.2 [default->compile(*)]
 [debug] == resolving dependencies advertiser#advertiser$sources_2.11;1.0->org.apache.maven#maven-settings-builder;3.2.2 [default->master]
 [debug] == resolving dependencies advertiser#advertiser$sources_2.11;1.0->com.typesafe.sbt#sbt-mocha;1.1.0 [default->compile]
-[debug] no default cache defined: set to /Users/madooc/.ivy2/cache
 [info] Resolving com.typesafe.sbt#sbt-mocha;1.1.0 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.sbt#sbt-mocha;1.1.0 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: com.typesafe.sbt#sbt-mocha;1.1.0
@@ -7399,6 +7398,6 @@
 [debug] 	[NOT REQUIRED] org.apache.maven#maven-repository-metadata;3.2.2!maven-repository-metadata.jar(src)
 [debug] 	[NOT REQUIRED] org.bouncycastle#bcpg-jdk15on;1.51!bcpg-jdk15on.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.play#sbt-routes-compiler_2.10;2.5.8!sbt-routes-compiler_2.10.jar(src)
-[debug] :: resolution report :: resolve 1396ms :: artifacts dl 67ms
+[debug] :: resolution report :: resolve 1190ms :: artifacts dl 58ms
 [debug] 	report for advertiser#advertiser$sources_2.11;1.0 default produced in /Users/madooc/workspace/Hudcha/app/advertiser/target/resolution-cache/reports/advertiser-advertiser$sources_2.11-default.xml
-[debug] 	resolve done (1396ms resolve - 67ms download)
+[debug] 	resolve done (1190ms resolve - 58ms download)
