@@ -4,7 +4,7 @@
 		module="crawler$sources_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20160925083503"
+		publication="20160925122727"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="compile"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20160925002525"/>
+		date="20160925115454"/>
 	<dependencies>
 		<module organisation="net.ruippeixotog" name="scala-scraper_2.11">
 			<revision name="1.0.0" status="release" pubdate="20160406035445" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/ruippeixotog/scala-scraper" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="37">

@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="test"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20160925083457"/>
+		date="20160925122726"/>
 	<dependencies>
 		<module organisation="com.websudos" name="util-testing_2.11">
 			<revision name="0.13.0" status="release" pubdate="20160228034926" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="42">
